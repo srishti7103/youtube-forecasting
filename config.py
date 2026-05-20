@@ -11,22 +11,22 @@ NICHES = {
         "name": "Personal Finance India",
         "keywords": ["mutual funds India", "save tax India", "SIP investment"],
         "channels": [
-            "UCy3d3hmt2-UKNkPEZqAXahg",  # Pranjal Kamra
-            "UCmA5OxhY5PVpGMvkBUFkMEQ",  # CA Rachana Ranade
-            "UCvr6pNHmkIVe-EBb1Dz-aBw",  # Labour Law Advisor
-            "UC3pzSBV16R1GKBK9V6OXoGw",  # Sharan Hegde
-            "UCXBMblREgIsFUZrKWCqnIaQ",  # Akshat Shrivastava
+            "UCwAdQUuPT6laN-AQR17fe1g",  # Pranjal Kamra
+            "UCe3qdG0A_gr-sEdat5y2twQ",  # CA Rachana Ranade
+            "UCVOTBwF0vnSxMRIbfSE_K_g",  # Labour Law Advisor
+            "UCwVEhEzsjLym_u1he4XWFkg",  # Sharan Hegde
+            "UCqW8jxh4tH1Z1sWPbkGWL4g",  # Akshat Shrivastava
         ]
     },
     "underserved": {
         "name": "India Economy and Data Stories",
         "keywords": ["India economy explained", "India statistics facts", "Indian data stories"],
         "channels": [
-            "UCHqSxMJDLf5CXBbkqzuiGcQ",  # 1Finance
-            "UCBwbY5hGhbMEJRtB9U5JKJA",  # Wion
-            "UC-BaQBDRWqqFTJWz27Xkz5Q",  # Think School
-            "UCVOPQIv7MBiONdO8qTFwVVQ",  # Finology
-            "UCVEFg5XPVbUVfF_8bkZfkNQ",  # Vivek Bindra (for contrast)
+            "UCIfANh2BltdF-XixRwKFRqQ",  # 1Finance
+            "UC_gUM8rL-Lrg6O3adPW9K1g",  # Wion
+            "UCKZozRVHRYsYHGEyNKuhhdA",  # Think School
+            "UCNXapAc8mXTwW82MTncdfzQ",  # Finology
+            "UCR-foyF-C6VuAlwy3KZMkgA",  # Vivek Bindra (for contrast)
         ]
     }
 }
