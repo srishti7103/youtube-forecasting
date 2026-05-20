@@ -1,0 +1,10 @@
+google-api-python-client==2.111.0
+pandas==2.1.4
+numpy==1.26.2
+scikit-learn==1.4.0
+isodate==0.6.1
+python-dotenv==1.0.0
+textblob==0.17.1
+matplotlib==3.8.2
+seaborn==0.13.1
+jupyter==1.0.0
