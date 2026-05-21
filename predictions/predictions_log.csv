@@ -1,1 +1,3 @@
-video_id,predicted_views,title,duration,post_time,day_1_views,day_3_views,day_7_views,day_14_views,ctr,avg_watch_pct
+prediction_date,channel_name,title,voice_type,presentation_style,is_highly_edited,duration_minutes,publish_hour_ist,publish_day_of_week,niche,subscribers_at_prediction,predicted_virality_multiplier,predicted_views,views_low_80pct,views_high_80pct,actual_views,actual_multiplier,within_confidence_interval,published_video_id,is_revalidated
+2026-05-21 20:07:59,India Data Stories,Why India is Running Out of Water: 5 Shocking Facts,human_own,faceless_broll,1,12.5,19,2,geopolitics_economy,15000,0.84,1254,148,10502,3373.0,0.675,1.0,DEMO_VIDEO_001,1
+2026-05-21 20:07:59,Student Money Academy,5 Finance Secrets Schools Never Teach You in India,human_own,face_presenter,1,11.0,18,3,personal_finance,8000,0.5,400,46,3355,,,,,0

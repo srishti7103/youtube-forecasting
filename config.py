@@ -5,37 +5,46 @@ load_dotenv()
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
-# Niches you are testing
+# 8 Niches and their query keywords for automated channel discovery
 NICHES = {
-    "popular": {
+    "personal_finance": {
         "name": "Personal Finance India",
-        "keywords": ["mutual funds India", "save tax India", "SIP investment"],
-        "channels": [
-            "UCwAdQUuPT6laN-AQR17fe1g",  # Pranjal Kamra
-            "UCe3qdG0A_gr-sEdat5y2twQ",  # CA Rachana Ranade
-            "UCVOTBwF0vnSxMRIbfSE_K_g",  # Labour Law Advisor
-            "UCwVEhEzsjLym_u1he4XWFkg",  # Sharan Hegde
-            "UCqW8jxh4tH1Z1sWPbkGWL4g",  # Akshat Shrivastava
-        ]
+        "keywords": ["personal finance India", "mutual funds tax India", "SIP investment India", "save money India"]
     },
-    "underserved": {
-        "name": "India Economy and Data Stories",
-        "keywords": ["India economy explained", "India statistics facts", "Indian data stories"],
-        "channels": [
-            "UCIfANh2BltdF-XixRwKFRqQ",  # 1Finance
-            "UC_gUM8rL-Lrg6O3adPW9K1g",  # Wion
-            "UCKZozRVHRYsYHGEyNKuhhdA",  # Think School
-            "UCNXapAc8mXTwW82MTncdfzQ",  # Finology
-            "UCR-foyF-C6VuAlwy3KZMkgA",  # Vivek Bindra (for contrast)
-        ]
+    "geopolitics_economy": {
+        "name": "Geopolitics & Economy",
+        "keywords": ["India geopolitics", "Indian economy analysis", "business case studies India", "geopolitics case study"]
+    },
+    "tech_gadgets": {
+        "name": "Tech & Gadgets",
+        "keywords": ["smartphone review India", "unboxing tech Hindi", "gadget reviews India", "tech news India"]
+    },
+    "gaming": {
+        "name": "Gaming",
+        "keywords": ["pubg mobile India gameplay", "free fire stream India", "gaming channel Hindi", "PC games India"]
+    },
+    "comedy_entertainment": {
+        "name": "Comedy & Entertainment",
+        "keywords": ["funny comedy sketch Hindi", "standup comedy India", "roasting channel India", "memes comedy Hindi"]
+    },
+    "education_science": {
+        "name": "Education & Science",
+        "keywords": ["science explainers Hindi", "space facts India", "education animation India", "knowledge facts Hindi"]
+    },
+    "makeup_beauty": {
+        "name": "Makeup & Beauty",
+        "keywords": ["makeup tutorial India", "beauty product review India", "skincare routine Hindi", "makeup tips India"]
+    },
+    "vlogging_lifestyle": {
+        "name": "Vlogging & Lifestyle",
+        "keywords": ["daily vlog India", "travel vlogger Hindi", "lifestyle routine India", "minivlogs India"]
     }
 }
 
-# API quota per day: 10,000 units
-# search.list = 100 units each — use sparingly
-# videos.list = 1 unit per 50 videos — use freely
-# channels.list = 1 unit per 50 channels — use freely
+# Harvesting configuration
+MAX_VIDEOS_PER_CHANNEL = 500
 
-MAX_VIDEOS_PER_CHANNEL = 100
-MIN_CHANNEL_SUBS = 5_000
-MAX_CHANNEL_SUBS = 800_000
+# Channel mix criteria
+SUCC_MIN_SUBS = 500_000      # Target > 500k subscribers for successful channels
+SMALL_MIN_SUBS = 5_000       # Target > 5k subscribers for small channels
+SMALL_MAX_SUBS = 50_000      # Target < 50k subscribers for small/stagnant channels
